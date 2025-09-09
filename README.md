@@ -1,5 +1,5 @@
 # Harry Potter Invisibility Cloak using C++ and Qt
-Read more about it at: https://medium.com/@sahilbinu44/optimizing-magic-how-i-built-an-invisibility-cloak-for-a-2gb-ram-celeron-laptop-d8b1a94cb97d
+Read more about it at: https://medium.com/@sahilkgeorge/optimizing-magic-how-i-built-an-invisibility-cloak-for-a-2gb-ram-celeron-laptop-d8b1a94cb97d
 ## invis-cloak-using-cpp
 # NOTE: 
 Use Qt Creator for compiling/building/running the program for a seamless expereience unless you are familiar with importing Qt Binaries into your default IDE.
