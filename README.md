@@ -1,8 +1,15 @@
 # Harry Potter Invisibility Cloak using C++ and Qt
-Read more about it at: 
+Read more about it at: https://medium.com/@sahilbinu44/optimizing-magic-how-i-built-an-invisibility-cloak-for-a-2gb-ram-celeron-laptop-d8b1a94cb97d
 ## invis-cloak-using-cpp
 # NOTE: 
 Use Qt Creator for compiling/building/running the program for a seamless expereience unless you are familiar with importing Qt Binaries into your default IDE.
+## How to use this project
+1. Keep the PC stable and ensure that there in nothing initially infront of camera.
+2. Run the project.
+3. A window with color, tolerance and capture background will appear, click on "Capture Background" ensuring that there in nothing infront of camera.
+4. Adjust the RGB and Tolerance slider for the color of object/sheet to be in range.
+5. Enjoy the "Invisiblilty cloak".
+
 ## Concepts:
 A. Programming & Development Concepts
 
