@@ -3,12 +3,49 @@ Read more about it at: https://medium.com/@sahilkgeorge/optimizing-magic-how-i-b
 ## invis-cloak-using-cpp
 # NOTE: 
 Use Qt Creator for compiling/building/running the program for a seamless expereience unless you are familiar with importing Qt Binaries into your default IDE.
-## How to use this project
-1. Keep the PC stable and ensure that there in nothing initially infront of camera.
-2. Run the project.
-3. A window with color, tolerance and capture background will appear, click on "Capture Background" ensuring that there in nothing infront of camera.
-4. Adjust the RGB and Tolerance slider for the color of object/sheet to be in range.
-5. Enjoy the "Invisiblilty cloak".
+
+## How to Run
+
+### 1. Clone the Repository
+
+### 2. Install Dependencies
+  Qt 6.x (or later) → Make sure you have Qt installed (with Qt Creator recommended).
+
+  CMake → Minimum version 3.16+
+
+  C++ Compiler → MinGW (Windows) or GCC/Clang (Linux/macOS)
+
+### 3. Build the Project
+  Using CMake directly:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+  Or, if using Qt Creator:
+
+  Open the project (CMakeLists.txt) in Qt Creator.
+
+  Select your kit (e.g., Desktop Qt 6.9.2 MinGW 64-bit).
+
+  Click Configure Project.
+
+  Hit Build & Run.
+
+### 4. Run the Program
+  Once compiled, launch the binary:
+
+### Usage
+  Launch the program.
+
+  Capture Background → take a snapshot of your background (without the cloak).
+
+  Adjust the sliders to fine-tune which color gets keyed out.
+  
+  Wrap yourself in the cloak → and disappear! 
+
+⚡ Note: This project was tested on an Intel Celeron N3050 with 2GB RAM, but it should run faster on more capable hardware.
 
 ## Concepts Learned
 
